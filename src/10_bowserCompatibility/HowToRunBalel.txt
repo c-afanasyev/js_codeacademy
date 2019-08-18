@@ -1,0 +1,30 @@
+npm init
+
+//-D also add dependency into package.json
+npm install babel-cli -D
+
+npm install babel-preset-env -D
+
+touch .babelrc
+
+touch .babelrc
+
+add following into the .babelrc:
+
+{
+  "presets": ["env"]
+}
+
+add following inside the package.json:
+
+/*
+ * babel — The Babel command call responsible for transpiling code.
+ * src — Instructs Babel to transpile all JavaScript code inside the src directory.
+ * -d — Instructs Babel to write the transpiled code to a directory.
+ * lib — Babel writes the transpiled code to a directory called lib.
+ */
+"scripts": {
+  "build": "babel src -d lib"
+}
+
+npm run build

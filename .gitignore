@@ -1,2 +1,5 @@
 .idea/
 js_codeacademy.iml
+lib/
+node_modules/
+package-lock.json
