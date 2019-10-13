@@ -4,7 +4,7 @@ const robot1 = {
     greetMaster() {
         console.log(`I'm model ${this.model}, how may I be of service?`);
     }
-}
+};
 
 const massProdRobot = (model, mobile) => {
     return {
@@ -14,7 +14,7 @@ const massProdRobot = (model, mobile) => {
             console.log(`I'm model ${this.model}, how may I be of service?`);
         }
     }
-}
+};
 
 const shinyNewRobot = massProdRobot('TrayHax', true)
 
